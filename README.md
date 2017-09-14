@@ -6,6 +6,11 @@ and
 Caroline Vanacore <caroline.r.vanacore.17@dartmouth.edu>  
 
 # Setup
+* Open Code Compose Studio
+  * Set the workspace directory as UART_AUTODOWNLOAD/CCS_Projects/
+* Open the project UART_AUTODOWNLOAD and debug the main.c file to run the program
+
+# Launchboard Setup
 * See CCS_Projects/UART_AUTODOWNLOAD/main.c for the pinout to connect the UART cables
 * P2.6 -> Orange
 * P2.5 -> Yellow

@@ -1,10 +1,11 @@
-#Code to automate the download of data from a microcontroller into a python array, where it can then be processed, plotted, or sent to web.
+# UART_Autodownload
+* Code to automate the download of data from a microcontroller into a python array, where it can then be processed, plotted, or sent to web.
 
 by: Gunnar Pope <gunnar.c.pope.th@dartmouth.edu>  
 and  
 Caroline Vanacore <caroline.r.vanacore.17@dartmouth.edu>  
 
-# setup
+# Setup
 * See CCS_Projects/UART_AUTODOWNLOAD/main.c for the pinout to connect the UART cables
 * P2.6 -> Orange
 * P2.5 -> Yellow
@@ -28,11 +29,11 @@ tty.usbserial-FTXOGKV5
 
 ### Now, you should be able to tx and rx bytes from the MSP430 in the terminal
 
-### To close the session:  
+# To close the serial session:  
 Type Ctrl-a, then Ctrl-\, and press 'y' for yes
 
 
-### Use version Python 3.x for all code on laptop
+## Use version Python 3.x for all code on laptop
 * See python's pySerial package for reading from serial terminal
 * https://pythonhosted.org/pyserial/
 

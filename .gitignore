@@ -1,61 +1,8 @@
 # ignore all the metadata files
-.metadata/
-.metadata/.plugins/
-.settings/
-.settings/
-.metadata/
+CCS_Projects/.metadata/
+CCS_Projects/.metadata/.plugins/
+#CCS_Projects/gsr_rev10_v1/.settings/
+#CCS_Projects/gsr_FIR_v2/.settings/
+**/.metadata/
 *.log
 *.index
-
-# Prerequisites
-*.d
-
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Linker output
-*.ilk
-*.map
-*.exp
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf

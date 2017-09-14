@@ -1,3 +1,12 @@
+# ignore all the metadata files
+.metadata/
+.metadata/.plugins/
+.settings/
+.settings/
+.metadata/
+*.log
+*.index
+
 # Prerequisites
 *.d
 

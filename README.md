@@ -19,10 +19,9 @@ Caroline Vanacore <caroline.r.vanacore.17@dartmouth.edu>
 ```
 ~$ ls /dev/ | grep 'tty.usbserial'
 tty.usbserial-FTXOGKV5
-~$ 
 ```
 
-### Open a serial connection using the screen program (you may have to download this package)
+### Open a serial connection using the screen program (you may have to download this package) and set the baud rate to 115200 bps
 ```
 ~$ screen /dev/tty.usbserial-FTXOGKV5 115200
 ```
